@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <h1>Form practice</h1>
+
+    <form class="" action="try-me" method="post">
+      <label for="Text1"> Type your message here</label>
+      <input type="text" placeholder="Type here" name="text1" id="Text1" minlength="3" maxlength="10" required>
+      <button> submit</button>
+    </form>
+<br>
+<button type="button" name="return">Return to home</button>
+<br>
+<a href="index.html">go back to home</a>
+<br>
+<br>
+<form action="https://ffxiv.consolegameswiki.com/wiki/">
+  <label for="Q1"> Search FFXIV Wiki</label>
+  <input type="text"  placeholder="type here"  name="search" id="Q1">
+  <button>Search</button>
+</form>
+
+<h2>more inputs</h2>
+<form action="/birds">
+  <label for="agree"> Agree to Terms of service</label>
+  <input type="checkbox" name="agree_tos" id="agree" required>
+  <button>submit</button>
+</form>
+
+<form action="ducks">
+  <h3>Which duck?</h3>
+  <label for="huey">huey</label>
+  <input type="radio" name="ducks" id="huey" value="huey">
+  <label for="duey">duey</label>
+  <input type="radio" name="ducks" id="duey" value="duey">
+  <label for="louie">louie</label>
+  <input type="radio" name="ducks" id="louie" value="louie">
+<br>
+<hr>
+<div>
+  <label for="">Select <span><strong>bestboy</strong></span></label>
+  <select name="bestboy" id="bestboy">
+    <option value="Alphinaud">Alphinaud</option>
+    <option value="Ser Aymeric">Ser Aymeric</option>
+    <option value="Estinien">Estinien</option>
+  </select>
+  <br>
+  <label for="lvl">Power level</label>
+  <input type="range" name="lvl" id="lvl" min="0" max="10" value="7">
+  <button>submit</button>
+</div>
+
+</form>
+
+  </body>
+</html>
